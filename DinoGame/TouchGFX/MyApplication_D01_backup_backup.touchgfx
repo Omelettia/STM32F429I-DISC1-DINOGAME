@@ -1,0 +1,198 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "Components": [
+          {
+            "Type": "Button",
+            "Name": "button1",
+            "X": 20,
+            "Y": 97,
+            "Width": 200,
+            "Height": 83,
+            "Pressed": "Start-Button-Vector.png",
+            "Released": "Start-Button-Vector.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen2"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen2",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "track4",
+            "Width": 240,
+            "Height": 320,
+            "Visible": false,
+            "RelativeFilename": "track4.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "track3",
+            "Width": 240,
+            "Height": 320,
+            "Visible": false,
+            "RelativeFilename": "track3.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "track2",
+            "Width": 240,
+            "Height": 320,
+            "Visible": false,
+            "RelativeFilename": "track2.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "track1",
+            "Width": 240,
+            "Height": 320,
+            "Visible": false,
+            "RelativeFilename": "track1.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "track0",
+            "Width": 240,
+            "Height": 320,
+            "Visible": false,
+            "RelativeFilename": "track0.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 95,
+            "Y": 160,
+            "Width": 50,
+            "Height": 85,
+            "RelativeFilename": "redcar.png"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "X": 204,
+            "Y": 282,
+            "Width": 32,
+            "Height": 32,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "IconButtonStyle",
+                "IconReleased": "__designer\\Blue_Icons_Home_32.png",
+                "IconPressed": "__designer\\Blue_Icons_Home_32.png"
+              }
+            ]
+          },
+          {
+            "Type": "Image",
+            "Name": "lamb",
+            "X": 63,
+            "Y": 20,
+            "Width": 32,
+            "Height": 32,
+            "RelativeFilename": "lamb.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "Interaction1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "ExitFromScreen2"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "MyApplication_D01",
+    "Resolution": {
+      "Width": 240,
+      "Height": 320
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 240,
+        "Height": 320
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Portrait",
+    "Family": "STM32F4",
+    "SubFamily": "STM32F429/439",
+    "Platform": "m4",
+    "ProjectFile": "../STM32F429I_DISCO_REV_D01.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": []
+  },
+  "Version": "4.23.2",
+  "CreatedBy": "4.20.0"
+}

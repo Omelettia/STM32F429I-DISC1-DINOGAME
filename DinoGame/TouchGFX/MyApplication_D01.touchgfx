@@ -1,0 +1,252 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 370,
+            "Height": 270,
+            "RelativeFilename": "__generated\\alternate_theme_images_containers_medium_wide_outlined_neutral.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "background3",
+            "X": -260,
+            "Y": 220,
+            "Width": 2103,
+            "Height": 20,
+            "Visible": false,
+            "RelativeFilename": "ground.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "background2",
+            "X": -250,
+            "Y": 220,
+            "Width": 2103,
+            "Height": 20,
+            "Visible": false,
+            "RelativeFilename": "ground.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "background1",
+            "X": -240,
+            "Y": 220,
+            "Width": 2103,
+            "Height": 20,
+            "RelativeFilename": "ground.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "mario1",
+            "X": 40,
+            "Y": 147,
+            "Width": 41,
+            "Height": 73,
+            "Visible": false,
+            "RelativeFilename": "mario5.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "mario2",
+            "X": 40,
+            "Y": 147,
+            "Width": 41,
+            "Height": 73,
+            "Visible": false,
+            "RelativeFilename": "mario3.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "mario3",
+            "X": 40,
+            "Y": 147,
+            "Width": 41,
+            "Height": 73,
+            "Visible": false,
+            "RelativeFilename": "mario4.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "mario4",
+            "X": 40,
+            "Y": 168,
+            "Width": 40,
+            "Height": 52,
+            "Visible": false,
+            "RelativeFilename": "mario7.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "mario5",
+            "X": 40,
+            "Y": 168,
+            "Width": 40,
+            "Height": 52,
+            "Visible": false,
+            "RelativeFilename": "mario8.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "mario6",
+            "X": 40,
+            "Y": 147,
+            "Width": 41,
+            "Height": 73,
+            "Visible": false,
+            "RelativeFilename": "mario1.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "turtle1",
+            "X": 60,
+            "Y": 103,
+            "Width": 49,
+            "Height": 65,
+            "Visible": false,
+            "RelativeFilename": "turtle1.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "turtle2",
+            "X": 161,
+            "Y": 103,
+            "Width": 49,
+            "Height": 65,
+            "Visible": false,
+            "RelativeFilename": "turtle2.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "scores",
+            "X": 265,
+            "Y": 27,
+            "Width": 55,
+            "Height": 15,
+            "TextId": "__SingleUse_UYCL",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 245,
+              "Green": 230,
+              "Blue": 230
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_EMJD",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "hiScores",
+            "X": 172,
+            "Y": 27,
+            "Width": 78,
+            "Height": 15,
+            "Visible": false,
+            "TextId": "__SingleUse_PIMC",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 245,
+              "Green": 230,
+              "Blue": 230
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_QBA3",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "gameover",
+            "X": 81,
+            "Y": 96,
+            "Width": 184,
+            "Height": 49,
+            "Visible": false,
+            "TextId": "__SingleUse_0C4T",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 245,
+              "Green": 230,
+              "Blue": 230
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "MyApplication_D01",
+    "Resolution": {
+      "Width": 240,
+      "Height": 320
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 240,
+        "Height": 320
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "Features": [
+          {
+            "Id": "L8Compression",
+            "Features": [
+              {
+                "Id": "L4",
+                "IsEnabled": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F4",
+    "SubFamily": "STM32F429/439",
+    "Platform": "m4",
+    "ProjectFile": "../STM32F429I_DISCO_REV_D01.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": []
+  },
+  "Version": "4.24.0",
+  "CreatedBy": "4.20.0"
+}

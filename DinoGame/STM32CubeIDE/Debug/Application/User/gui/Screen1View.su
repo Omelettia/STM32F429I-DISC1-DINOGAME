@@ -1,0 +1,12 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+C:/Users/asiat/Videos/DinoGame/DinoGame/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:26:6:virtual void Screen1View::tearDownScreen()	0	static
+C:/Users/asiat/Videos/DinoGame/DinoGame/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:234:6:virtual void Screen1View::resetGame()	16	static
+C:/Users/asiat/Videos/DinoGame/DinoGame/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:218:6:virtual void Screen1View::updateScores(int)	16	static
+C:/Users/asiat/Videos/DinoGame/DinoGame/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:226:6:virtual void Screen1View::updateHiScores(int)	16	static
+../../TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp:12:13:Screen1View::~Screen1View()	16	static
+../../TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp:12:13:virtual Screen1View::~Screen1View()	8	static
+C:/Users/asiat/Videos/DinoGame/DinoGame/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:4:1:Screen1View::Screen1View()	16	static
+C:/Users/asiat/Videos/DinoGame/DinoGame/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:204:6:bool Screen1View::checkCollision(const touchgfx::Image&)	8	static
+C:/Users/asiat/Videos/DinoGame/DinoGame/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:31:6:virtual void Screen1View::handleTickEvent()	16	static
+C:/Users/asiat/Videos/DinoGame/DinoGame/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:10:6:virtual void Screen1View::setupScreen()	24	static

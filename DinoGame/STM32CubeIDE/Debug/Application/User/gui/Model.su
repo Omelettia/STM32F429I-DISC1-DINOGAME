@@ -1,0 +1,6 @@
+C:/Users/asiat/Videos/DinoGame/DinoGame/TouchGFX/gui/src/model/Model.cpp:4:1:Model::Model()	0	static
+C:/Users/asiat/Videos/DinoGame/DinoGame/TouchGFX/gui/src/model/Model.cpp:9:6:void Model::tick()	0	static
+C:/Users/asiat/Videos/DinoGame/DinoGame/TouchGFX/gui/src/model/Model.cpp:14:6:void Model::updateX(int16_t)	0	static
+C:/Users/asiat/Videos/DinoGame/DinoGame/TouchGFX/gui/src/model/Model.cpp:19:6:void Model::updateY(int16_t)	0	static
+C:/Users/asiat/Videos/DinoGame/DinoGame/TouchGFX/gui/src/model/Model.cpp:24:9:int16_t Model::GetImageX()	0	static
+C:/Users/asiat/Videos/DinoGame/DinoGame/TouchGFX/gui/src/model/Model.cpp:29:9:int16_t Model::GetImageY()	0	static

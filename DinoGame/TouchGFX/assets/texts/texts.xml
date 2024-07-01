@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.24.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_0C4T" Alignment="Left" TypographyId="gameover">
+        <Translation Language="GB">GAME OVER</Translation>
+      </Text>
+      <Text Id="__SingleUse_QBA3" Alignment="Left" TypographyId="Mario">
+        <Translation Language="GB">00000</Translation>
+      </Text>
+      <Text Id="__SingleUse_PIMC" Alignment="Right" TypographyId="Mario">
+        <Translation Language="GB">HI  &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_EMJD" Alignment="Left" TypographyId="Mario">
+        <Translation Language="GB">00000</Translation>
+      </Text>
+      <Text Id="__SingleUse_UYCL" Alignment="Left" TypographyId="Mario">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="RTL" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Medium" Font="verdanaz.ttf" Size="22" Bpp="4" IsVector="no" Direction="RTL" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />
+    <Typography Id="Mario" Font="Grand9KPixel.ttf" Size="15" Bpp="4" IsVector="no" Direction="RTL" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />
+    <Typography Id="gameover" Font="Grand9KPixel.ttf" Size="30" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>
