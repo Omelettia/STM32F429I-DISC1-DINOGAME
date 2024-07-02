@@ -1,6 +1,7 @@
 # STM32F429I-DISC1-DINOGAME
 
 <img src="Images\DinoGame.jpg">
+
 ## components list
 
 -stm32f429i-disc1
