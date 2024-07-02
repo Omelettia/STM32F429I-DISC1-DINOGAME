@@ -16,4 +16,5 @@
 ## Control
 - Move the joystick up along the Y axis to make the character jump and down along the Y axis to make the character crouch.
 - Move the joystick right along the X axis to restart the game after a game over.
-##Demo: (https://youtube.com/shorts/YhlrokSxmfg?feature=share)
+
+## Demo: (https://youtube.com/shorts/YhlrokSxmfg?feature=share)
