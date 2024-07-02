@@ -2,7 +2,7 @@
 
 <img src="Images\DinoGame.jpg">
 
-## components list
+## Components list
 
 -stm32f429i-disc1
 -2-Axis Joystick
