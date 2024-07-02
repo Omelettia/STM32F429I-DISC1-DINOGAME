@@ -4,8 +4,8 @@
 
 ## Components list
 
--stm32f429i-disc1
--2-Axis Joystick
+- stm32f429i-disc1
+- 2-Axis Joystick
 
 ## Usage
 
