@@ -9,8 +9,8 @@
 
 ## Usage
 
--Use STM32CubeIDE to import the project
--IO:
+- Use STM32CubeIDE to import the project
+- IO:
   - PC3 : X
   - PA5 : Y
 ## Control
